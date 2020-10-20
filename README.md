@@ -1,11 +1,11 @@
 # git-command
 git command learning
 
-### git commit -a -m "message"
+## git commit -a -m "message"
 -a 参数表示，可以将所有已跟踪文件中的执行修改或删除操作的文件都提交到本地仓库，即使它们没有经过git add添加到暂存区。
 注意，新加的文件（即没有被git系统管理的文件）是不能被提交到本地仓库的。建议一般不要使用-a 参数，正常的提交还是使用git add先将要改动的文件添加到暂存区，再用git commit 提交到本地版本库。
 
-## git add
+### git add
 git add .
 不加参数默认为将修改操作的文件和未跟踪新添加的文件添加到git系统的暂存区，注意不包括删除。
 
@@ -14,3 +14,5 @@ git add -u .
 
 git add -A .
 -A 表示将所有的已跟踪的文件的修改与删除和新增的未跟踪的文件都添加到暂存区
+
+## git checkout -b branchName

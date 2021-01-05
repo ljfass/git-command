@@ -16,3 +16,7 @@ git add -A .
 -A 表示将所有的已跟踪的文件的修改与删除和新增的未跟踪的文件都添加到暂存区
 
 ## git checkout -b branchName
+
+History，所有提交过的commit保存的位置，也就是说只要commit过，都是历史，可以回到过去。
+Stage(index)，也就是当前git add过的但尚未commit的文件。
+Work directory，就是当前正在改的代码了。
